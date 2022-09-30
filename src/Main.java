@@ -11,6 +11,7 @@ public class Main {
         healthyBurger.itemizeHamburger();
 
         DeluxeBurger db = new DeluxeBurger();
+        db.addHamburgerAddition1("Potatoes",2.3);
         db.itemizeHamburger();
     }
 }

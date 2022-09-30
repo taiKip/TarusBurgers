@@ -9,5 +9,8 @@ public class Main {
         HealthyBurger healthyBurger = new HealthyBurger("bacon" ,5.67);
         healthyBurger.addHealthAddition2("Egg",5.43);
         healthyBurger.itemizeHamburger();
+
+        DeluxeBurger db = new DeluxeBurger();
+        db.itemizeHamburger();
     }
 }
